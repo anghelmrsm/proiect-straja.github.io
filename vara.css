@@ -1,0 +1,247 @@
+html{
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, a{
+    font-family: 'Lora', serif;
+}
+
+nav, button{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/poze/statiunea-straja-hunedoara.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#intoarcere{
+    background-color: #fff;
+    border-radius: 3px;
+    
+}
+
+#intoarcere > a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav > a{
+    max-width: 50px;
+    height: auto;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+#logo{
+    max-width: 50px;
+}
+
+nav a:hover #logo{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+nav{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: green;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+header > h1{
+    font-size: 50px;
+}
+
+header > img{
+    width: 700px;
+    border-radius: 1%;
+}
+
+#trasee{
+    background-color: #F5F5F5;
+    margin: 200px;
+    margin-top: 100px;
+}
+
+#trasee:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#trasee h2{
+    font-size: 35px;
+}
+
+#trasee p{
+    font-size: 20px;
+}
+
+#formular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 3%;
+}
+
+#formular h1{
+    color: green;
+    font-size: 30px;
+}
+
+#formular button{
+    font-size: 20px;
+    border-radius: 3%;
+    background-color: green;
+}
+
+#formular button:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+
+}
+
+#formular a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#final{
+    background-image: url('/poze/PARTIA-CONSTANTINESCU.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 30px;
+}
+
+#final p{
+    font-size: 30px;
+    color: #fff; 
+}
+
+
+#final p > a{
+    text-decoration: none;
+    color: #e30613;
+}
+
+#slogos{
+    max-width: 30px;
+}
+
+#socializare > ul{
+    display: flex;
+    margin-top: 0px;
+}
+
+#socializare > ul > li{
+    list-style: none;
+    padding: 7px;
+}
+
+#socializare > h3{
+    color: #fff;
+    margin-left:3px;
+    margin-bottom: 0px;
+}
+
+#socializare >ul  li:hover {
+    animation: grow 1s forwards;
+}
+
+#locatie{
+    display: flex;
+    align-items: center;
+}
+
+#locatie img{
+    width: 30px;
+    height: 30px;
+}
+
+#locatie img:hover{
+    animation: grow 1s forwards;
+}
+
+#locatie h3{
+    color: #fff;
+    margin-left: 10px;
+}
+
+#intoarcere{
+    font-size: 25px;
+}
+
+#buton{
+    display: flex;
+    justify-content: center;
+}
+
+#buton:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#drepturi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drepturi h3{
+    color: #fff;
+}
+
+@keyframes grow{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+@keyframes big-small{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+header> img:hover{
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+}
+

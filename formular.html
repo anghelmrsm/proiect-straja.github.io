@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formular de Contact</title>
+  <link rel="stylesheet" href="formular.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formular</h1>
+    <form action="#" method="post" class="contact-form">
+      <div class="form-group">
+        <label for="nume">Nume</label>
+        <input type="text" id="nume" name="nume" required>
+      </div>
+      <div class="form-group">
+        <label for="prenume">Prenume</label>
+        <input type="text" id="prenume" name="prenume" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="telefon">Număr de telefon</label>
+        <input type="tel" id="telefon" name="telefon" required pattern="[0-9]{10}" placeholder="Ex: 0712345678">
+      </div>
+      <div class="form-group">
+        <label for="adresa">Adresă</label>
+        <input type="text" id="adresa" name="adresa" required>
+      </div>
+      <div class="form-group">
+        <label for="cod-postal">Cod Poștal</label>
+        <input type="text" id="cod-postal" name="cod-postal" required pattern="[0-9]{6}" placeholder="Ex: 123456">
+      </div>
+      <div class="form-group">
+        <button type="submit" class="submit-btn"><a href="/proiect.html">Trimite!</a></button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
